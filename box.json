@@ -22,8 +22,8 @@
         "testbox":"^2.4.0+80"
     },
     "installPaths":{
-        "testbox":"testbox",
-        "coldbox":"tests\\resources\\app\\coldbox"
+        "testbox":"testbox\\",
+        "coldbox":"tests\\resources\\app\\coldbox\\"
     },
     "scripts":{
         "postVersion":"package set location='bdw429s/spam#v`package version`'",
@@ -34,5 +34,8 @@
         "**/.*",
         "test",
         "tests"
-    ]
+    ],
+    "testbox":{
+        "runner":"http://127.0.0.1:2189/tests/runner.cfm"
+    }
 }

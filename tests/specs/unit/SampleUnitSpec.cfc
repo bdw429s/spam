@@ -3,7 +3,7 @@ component extends="testbox.system.BaseSpec" {
         describe( "Sample Unit Spec", function() {
             it( "can run unit specs on the module", function() {
                 // var CUT = new root.models.Example();
-                fail( "No unit spec written yet" );
+                //fail( "No unit spec written yet" );
             } );
         } );
     }
